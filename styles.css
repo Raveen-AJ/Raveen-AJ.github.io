@@ -220,4 +220,8 @@ footer {
   .menu {
     right: -70% !important;
   }
+
+  body {
+    overflow: scroll !important;
+  }
 }
