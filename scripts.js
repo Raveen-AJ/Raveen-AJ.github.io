@@ -17,10 +17,10 @@ function menuTouggle(div) {
   const menu = document.querySelector(".menu");
   const backdrop = document.querySelector(".backdrop");
   if (toggled) {
-    menu.style.transform = "translate(-100%, 0)";
+    menu.style.right = "0";
     document.body.style.overflow = "hidden";
   } else {
-    menu.style.transform = "translate(100%, 0)";
+    menu.style.right = "-70%";
     document.body.style.overflow = "scroll";
   }
 }
